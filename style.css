@@ -1,9 +1,14 @@
 body {
-  background-color: powderblue;
+  background-color: Cornsilk;
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
 }
 h1 {
-  color: blue;
+  color: Black;
 }
 p {
-  color: red;
+  color: DarkGrey;
 }
