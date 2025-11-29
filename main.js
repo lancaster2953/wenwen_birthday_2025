@@ -5,5 +5,12 @@ window.addEventListener('load', function(){
   canvas.height = GAME.height;
 
   console.log(Snake);
-  Snake.draw(ctx);
+  
+  function animate(){
+    ctx.clearRect(0,0, canvas.width, canvas.height);
+    Snake.draw(ctx);
+    Snake/update();
+  }
+
+  setInterval(animate, 500);
 });
