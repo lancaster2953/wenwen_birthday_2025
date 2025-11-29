@@ -3,4 +3,7 @@ window.addEventListener('load', function(){
   const cts = canvas.getContext('2d');
   canvas.width = GAME.width;
   canvas.height = GAME.height;
+
+  console.log(Snake);
+  Snake.draw(ctx);
 });
