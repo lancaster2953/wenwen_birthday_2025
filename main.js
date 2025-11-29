@@ -15,7 +15,7 @@ window.addEventListener('load', function(){
       ctx.textAlign = 'center';
       ctx.fillStyle = 'black';
       ctx.font = '20px Arial';
-      ctx.fillText('happy birthday wenwen', GAME.width * 0.5, GAME, height * 0.5);
+      ctx.fillText('happy birthday wenwen', GAME.width * 0.5, GAME.height * 0.5);
     }
   }
 
