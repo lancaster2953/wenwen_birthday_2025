@@ -15,5 +15,6 @@ const Snake = {
     ) {
       this.position.x = 0
       this.position.y += 1
+    }
   }
 }
