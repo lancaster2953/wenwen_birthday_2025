@@ -4,4 +4,5 @@ const ROWS = 7;
 const GAME = {
   width: COLUMNS * CELL_SIZE,
   height: ROWS * CELL_SIZE,
+  gameOver: false,
 }
