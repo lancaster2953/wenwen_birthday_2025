@@ -3,7 +3,9 @@ window.addEventListener('load', function(){
   const ctx = canvas.getContext('2d');
   canvas.width = GAME.width;
   canvas.height = GAME.height;
-  ctx.fillText("happy birthday wenwen here's zhu di")
+  ctx.textAlign = 'center';
+  ctx.font = '20px Arial';
+  ctx.fillText('happy birthday wenwen here\'s zhu di', GAME.width * 0.5, GAME, height * 0.5);
 
   console.log(Snake);
   
