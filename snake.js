@@ -13,8 +13,8 @@ const Snake = {
     if (
       this.position.x > COLUMNS - 1
     ) {
-      this.position.x = 0
-      this.position.y += 1
+      this.position.x = 0;
+      this.position.y += 1;
     }
   }
 }
